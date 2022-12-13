@@ -21,7 +21,6 @@ function cupAndBalls(b, arr) {
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].includes(ballLoc)) {
-      console.log("ball location is included");
       if (arr[i][0] === ballLoc) {
         ballLoc = arr[i][1];
       } else if (arr[i][1] === ballLoc) {
