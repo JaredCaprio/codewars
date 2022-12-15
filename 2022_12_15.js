@@ -15,6 +15,4 @@ function filter_list(l) {
   }
   return result;
 }
-
-console.log(filter_list([1, 2, "aasf", "1", "123", 123, 2, 0, 0]));
 //</2>
