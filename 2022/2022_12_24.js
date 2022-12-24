@@ -19,8 +19,6 @@ whatNumberIsIt(100) should return "Input number is 100"
 
 What you need to think about is how to judge it correctly and effectively 
 and don't forget isNaN().
-
-
 */
 function whatNumberIsIt(n) {
   const maxValue = Number.MAX_VALUE;
