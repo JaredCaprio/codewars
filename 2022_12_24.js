@@ -47,6 +47,4 @@ function whatNumberIsIt(n) {
       return `Input number is ${n}`;
   }
 }
-
-console.log(whatNumberIsIt());
 //</1>
