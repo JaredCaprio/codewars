@@ -11,7 +11,7 @@ twice and connect them together with the first and last letter, combined into on
 "alaska" -> "Alaskalaska"
 
 Complete the function that takes a noun as a string, and returns her preferred band name 
-written as a string.
+written as a string.`
 */
 function bandNameGenerator(str) {
   if (str[0] == str[str.length - 1]) {
