@@ -75,9 +75,7 @@ Constraints:
  */
 async function sleep(millis) {
   return new Promise(function (resolve, reject) {
-    setTimeout(function () {
-      console.log("suck");
-    }, 2000);
+    setTimeout(function () {}, 2000);
   });
 }
 
