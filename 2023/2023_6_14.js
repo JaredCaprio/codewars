@@ -33,7 +33,7 @@ var containsDuplicate = function (nums) {
       hash[num] += 1;
     }
   }
-  console.log(hash);
+
   for (const num in hash) {
     if (hash[num] >= 2) {
       return true;
