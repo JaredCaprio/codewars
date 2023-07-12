@@ -52,5 +52,5 @@ function expandFromCenter(str, left, right) {
   return str.slice(left - i, right + i + 1);
 }
 
-console.log(longestPalindrome("donggomogg"));
+console.log(longestPalindrome("abba"));
 //</1>
