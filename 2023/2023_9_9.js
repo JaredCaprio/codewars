@@ -3,7 +3,7 @@ Create a function that returns the CSV representation of a two-dimensional numer
 
 Example:
 
-input:
+input:J
    [[ 0, 1, 2, 3, 4 ],
     [ 10,11,12,13,14 ],
     [ 20,21,22,23,24 ],
