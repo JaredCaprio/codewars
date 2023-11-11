@@ -15,7 +15,7 @@ Worked Example
 # Return the string of characters.
 
 Examples
-
+ a
 ("--++--", "++--++") ➞ "000000"
 
 ("-+-+-+", "-+-+-+") ➞ "-+-+-+"
