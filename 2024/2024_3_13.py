@@ -20,3 +20,4 @@ def to_jaden_case(str):
 print(to_jaden_case("life is like when the rain don't never stops"))
 print(to_jaden_case("I am just an icon living"))
 print(to_jaden_case("all your verses sound like dirty dishes"))
+print(to_jaden_case("how are mirrors real if your eyes aren't"))
