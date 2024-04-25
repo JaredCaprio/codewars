@@ -13,11 +13,11 @@ Expect large Inputs!
 # function must return a list containing all positive odd numbers below n
 
 def odd_count(n): 
-    return (n + 1) // 2 if n % 2 == 0 else (n + 2) // 2  
-
- 
+    return (n + 1) // 2 if n % 2 == 0 else (n + 2) // 2 - 1
 
 # test cases 
-print(odd_count(495849))
-print(odd_count(4))
+print(odd_count(15))
+print(odd_count(13))
+print(odd_count(250))
+print(odd_count(178))
 
