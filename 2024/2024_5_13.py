@@ -11,8 +11,6 @@ Notes
     All numbers are valid Int32, no need to validate them.
     There will always be at least one number in the input string.
     Output string must be two numbers separated by a single space, and highest number is first.
-
-
 """
 
 # function takes in a string of integers separated by spaces
@@ -27,7 +25,6 @@ def high_and_low(numbers):
     splitNums = numbers.split(" ")
 
     # convert each item of list to int to be compared
-
     numList = list(map(int, splitNums))
     outputLst = [str(max(numList)), str(min(numList))]
 
